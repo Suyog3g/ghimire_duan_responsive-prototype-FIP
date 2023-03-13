@@ -1,6 +1,6 @@
 # ghimire_duan_responsive-prototype-FIP
 
-Responsive box design for FIP
+Responsive box design for FIP by Suyog and Jintao
 
 TODO: All about responsive boxed design which is responsive.
 
