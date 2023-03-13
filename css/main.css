@@ -1,0 +1,628 @@
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* General style */
+
+.box-color {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.box-color2 {
+    background-color: #a7a7a7;
+    color: white;
+    text-align: center;
+}
+/* 
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-column-gap: 30px;
+} */
+
+/* Header */
+
+#main-header {
+    margin-top: 20px;
+}
+
+#header-logo {
+    height: 39px;
+    width: 50px;
+    grid-row: 1;
+}
+
+#main-nav {
+   display: hidden;
+}
+
+#header-icons {
+    width: 50px;
+    height: 39px;
+    grid-row: 1;
+}
+
+#hero-image {
+    background-color: #747474;
+    margin-top: 40px;
+}
+
+#hero-section {
+    width: 320px;
+    height: 503px;
+    margin-top: 40px;
+}
+
+#hero-txt {
+    width: 210px;
+    height: 184px;
+    margin-top: 60px;
+    
+}
+
+#hero-btn {
+    width: 50px;
+    height: 32px;
+    margin-top: 20px;
+}
+
+#flavour {
+    margin-top: 20px;
+    background-color: #747474;
+}
+
+#fla-title {
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+#fla-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+#fla-btn {
+    width: 130px;
+    height: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+#bundle {
+    margin-top: 20px;
+    background-color: #747474;
+}
+
+#bun-title {
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+#bun-rec1 {
+    width: 130px;
+    height: 163px;
+    margin-top: 60px;
+}
+
+#bun-rec2 {
+    display: hidden;
+}
+
+#bun-rec3 {
+    display: hidden;
+}
+
+#bun-btn {
+    width: 85px;
+    height: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#video {
+    width: 290px;
+    height: 288px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#rebranding-sec {
+    background-color: #747474;
+}
+
+#reb-title {
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+#reb-img1 {
+    width: 130px;
+    height: 235px;
+    margin-top: 20px;
+}
+
+#reb-img2 {
+    display: hidden;
+}
+
+#reb-text1 {
+    width: 130px;
+    height: 37px;
+    margin-top: 20px;
+}
+
+#reb-text2 {
+    display: hidden;
+}
+
+#reb-btn {
+    width: 130px;
+    height: 37px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contact-form {
+    padding-top: 300px;
+    background-color: #c0bfbf;
+}
+#contact-form-text {
+    background-color: #747474;
+    
+
+}
+
+#contact-title{
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+#first-name {
+    width: 290px;
+    height: 39px;
+    margin-top: 20px;
+}
+#last-name {
+    width: 290px;
+    height: 39px;
+    margin-top: 20px;
+}
+#email {
+    width: 290px;
+    height: 39px;
+    margin-top: 20px;
+}
+#message {
+    width: 290px;
+    height: 92px;
+    margin-top: 20px;
+}
+#contact-btn {
+    width: 130px;
+    height: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main-footer {
+    background-color: #747474;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#foot-logo{
+    width: 50px;
+    height: 44px;
+    margin-top: 10px;
+}
+
+#foot-join {
+    width: 130px;
+    height: 27px;
+    margin-top: 10px;
+}
+
+#foot-enquiry {
+    width: 130px;
+    height: 27px;
+    margin-top: 10px;
+}
+
+#foot-media {
+    width: 130px;
+    height: 57px;
+    grid-row: 2;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    #header-logo {
+    height: 58px;
+    width: 106px;
+    }
+
+    #main-nav {
+        width: 232px;
+        height: 58px;
+    }
+
+    #header-icons {
+        width: 106px;
+        height: 58px;
+    }
+
+
+    #hero-section {
+        width: 766px;
+        height: 682px;
+    }
+
+    #hero-txt {
+        width: 295px;
+        height: 249px;
+    }
+
+    #hero-btn {
+        width: 106px;
+        height: 45px;
+    }
+
+    #fla-title {
+        width: 232px;
+        height: 45px;
+    }
+    
+    #fla-circle {
+        width: 232px;
+        height: 232px;
+        border-radius: 50%;
+        margin-top: 60px;
+    }
+
+    #fla-btn {
+        width: 104px;
+        height: 46px;
+    }   
+    
+    #bundle {
+        margin-top: 20px;
+        background-color: #a7a7a7;
+    }
+    
+    #bun-title {
+        width: 232px;
+        height: 45px;
+        margin-top: 20px;
+    }
+    
+    #bun-rec1 {
+        width: 232px;
+        height: 278px;
+        margin-top: 60px;
+    }
+    
+    #bun-rec2 {
+        width: 232px;
+        height: 278px;
+        margin-top: 60px;
+    }
+
+    #bun-rec3 {
+        display: hidden;
+    }
+    
+    #bun-btn {
+        width: 104px;
+        height: 55px;
+        margin-top: 40px;
+    }
+
+    #video {
+        width: 610px;
+        height: 436px;
+    }
+
+    #reb-title {
+        width: 232px;
+        height: 82px;
+        margin-top: 20px;
+    }
+    
+    #reb-img1 {
+        width: 232px;
+        height: 413px;
+        margin-top: 20px;
+    }
+
+    #reb-img2 {
+        width: 232px;
+        height: 413px;
+        margin-top: 20px;
+    }
+    
+    #reb-text1 {
+        width: 106px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    #reb-text2 {
+        width: 106px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    #reb-btn {
+        width: 106px;
+        height: 51px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #contact-title{
+        width: 230px;
+        height: 59px;
+    }
+
+    #first-name {
+        width: 295px;
+        height: 50px;
+    }
+    #last-name {
+        width: 295px;
+        height: 50px;
+    }
+    #email {
+        width: 610px;
+        height: 50px;
+    }
+    #message {
+        width: 610px;
+        height: 136px;
+    }
+    #contact-btn {
+        width: 106px;
+        height: 36px;
+    }
+
+    #foot-logo{
+        width: 104px;
+        height: 57px;
+        margin-top: 10px;
+    }
+    
+    #foot-join {
+        width: 169px;
+        height: 39px;
+        margin-top: 10px;
+    }
+    
+    #foot-enquiry {
+        width: 169px;
+        height: 39px;
+        margin-top: 10px;
+    }
+    
+    #foot-media {
+        width: 169px;
+        height: 49px;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 1200px){
+    #header-logo {
+       width: 170px;
+       height: 96px;
+    } 
+
+    #main-nav {
+        width: 470px;
+        height: 96px;
+    }
+
+    #header-icons {
+        width: 170px;
+        height: 96px;
+    }
+
+    #hero-txt {
+        width: 470px;
+        height: 365px;
+    }
+
+    #hero-btn {
+        width: 170px;
+        height: 54px;
+    }
+
+    #hero-section {
+        width: 1200px;
+        height: 891px;
+    }
+   
+    #fla-title {
+        width: 370px;
+        height: 107px;
+    }
+
+    #fla-circle {
+        width: 522px;
+        height: 522px;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    #fla-btn {
+        width: 170px;
+        height: 75px;
+    }  
+    
+     
+    #bundle {
+        margin-top: 20px;
+        background-color: #a7a7a7;
+    }
+    
+    #bun-title {
+        width: 370px;
+        height: 107px;
+        margin-top: 20px;
+    }
+
+    #bun-rec1 {
+        width: 370px;
+        height: 569px;
+        margin-top: 60px;
+    }
+    
+    #bun-rec2 {
+        width: 370px;
+        height: 569px;
+        margin-top: 60px;
+    }
+
+    #bun-rec3 {
+        width: 370px;
+        height: 569px;
+        margin-top: 60px;
+    }
+    
+    #bun-btn {
+        width: 170px;
+        height: 97px;
+        margin-top: 40px;
+    }
+
+    #video {
+        width: 970px;
+        height: 836px;
+    }
+
+
+    #reb-title {
+        width: 370px;
+        height: 90px;
+        margin-top: 20px;
+    }
+    
+    #reb-img1 {
+        width: 368px;
+        height: 635px;
+        margin-top: 60px;
+    }
+
+    #reb-img2 {
+        width: 368px;
+        height: 635px;
+        margin-top: 60px;
+    }
+    
+    #reb-text1 {
+        width: 170px;
+        height: 75px;
+        margin-top: 20px;
+    }
+
+    #reb-text2 {
+        width: 170px;
+        height: 75px;
+        margin-top: 20px;
+    }
+    
+    #reb-btn {
+        width: 170px;
+        height: 76px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    #contact-form {
+        padding-top: 0;
+        margin-top: 30px;
+        padding-right: 300px;
+        background-color: #c0bfbf;
+    }
+
+
+    #contact-title{
+        width: 370px;
+        height: 98px;
+    }
+
+    #first-name {
+        width: 268px;
+        height: 85px;
+    }
+    #last-name {
+        width: 268px;
+        height: 85px;
+    }
+    #email {
+        width: 570px;
+        height: 85px;
+    }
+    #message {
+        width: 570px;
+        height: 170px;
+    }
+    #contact-btn {
+        width: 170px;
+        height: 80px;
+    }
+
+    #foot-logo{
+        width: 170px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    
+    #foot-join {
+        width: 270px;
+        height: 81px;
+        margin-top: 10px;
+    }
+    
+    #foot-enquiry {
+        width: 270px;
+        height: 81px;
+        margin-top: 10px;
+    }
+    
+    #foot-media {
+        width: 270px;
+        height: 81px;
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+
